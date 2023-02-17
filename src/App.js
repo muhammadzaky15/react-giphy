@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import SearchBar from './component/SearchBar';
+import GifList from './component/GifList';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+   <div className='px-20'>
+    <SearchBar/>
+    <GifList/>
+   </div>
   );
 }
 
