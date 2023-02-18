@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import GifItem from "./GitItem";
 import Skeleton from "./Skeleton";
 
