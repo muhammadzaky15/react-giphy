@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import GifList from "../component/GifList";
 import SearchBar from "../component/SearchBar";
 import { seacrhGiphy } from "../service/http";

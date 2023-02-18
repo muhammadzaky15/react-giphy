@@ -5,12 +5,12 @@ export default function SearchBar({
 }) {
   return (
     <div className="w-full flex justify-center py-5">
-      <div className="w-full md:w-1/3">
+      <div className="w-full md:w-2/3">
         <label
           for="search"
           className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
         >
-          Search
+          Search Your Giphy Here
         </label>
         <div className="relative">
           <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -34,7 +34,7 @@ export default function SearchBar({
             type="search"
             id="search"
             className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Search"
+            placeholder="Search Your Giphy Here"
             onChange={(e) => queryHandle(e)}
             value={querySearch}
           />
