@@ -1,8 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Routes, Route } from "react-router-dom"
-import SearchBar from "./component/SearchBar";
-import GifList from "./component/GifList";
 import Home from "./page/Home";
 import IronManPage from "./page/IronManPage";
 import SearchPage from "./page/SearchPage";
