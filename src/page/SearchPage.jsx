@@ -17,7 +17,7 @@ export default function SearchPage() {
   }
 
   return (
-    <div className="px-20">
+    <div className="px-5 md:px-20">
       <SearchBar
         querySearch={querySearch}
         setQuerySearch={setQuerySearch}
