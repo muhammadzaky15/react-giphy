@@ -1,17 +1,7 @@
-import { Fragment } from "react";
-
-export default function GifItem() {
+export default function GifItem({ gifUrl }) {
   return (
-    <Fragment>
-      <div className="w-ful  h-24  bg-blue-500"></div>
-      <div className="w-ful  h-24  bg-blue-500"></div>
-      <div className="w-ful  h-24  bg-blue-500"></div>
-      <div className="w-ful  h-24  bg-blue-500"></div>
-      <div className="w-ful  h-24  bg-blue-500"></div>
-      <div className="w-ful  h-24  bg-blue-500"></div>
-      <div className="w-ful  h-24  bg-blue-500"></div>
-      <div className="w-ful  h-24  bg-blue-500"></div>
-      <div className="w-ful  h-24  bg-blue-500"></div>
-    </Fragment>
+      <div className="my-2">
+        <img src={gifUrl} alt="gif" className="w-full max-h-40"/>
+      </div>
   );
 }
