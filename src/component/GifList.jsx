@@ -3,9 +3,6 @@ import GifItem from "./GitItem";
 import Skeleton from "./Skeleton";
 
 export default function GifList({ data }) {
-  useEffect(() => {
-    console.log("data", data);
-  }, [data]);
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       {data &&
